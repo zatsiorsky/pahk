@@ -1,1 +1,6 @@
-<p>This is the partial for view 1.</p>
+<p>This here will be the view for the map.</p>
+
+<div id="map"></div>
+<label for="minutes" style="display:block; text-align:center">Time left:</label>
+<input name="minutes" type="number" id="post-input" ng-model="minutes" ng-change="minChange()"/>
+<button class="btn btn-default" id="post-button" ng-click="post()" ng-show = "buttonActive()">Click</button>
